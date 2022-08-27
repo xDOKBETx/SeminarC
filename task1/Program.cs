@@ -11,7 +11,7 @@ Console.Write("Введите число b: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 int sqr = numberB * numberB; // Расчёт квадрата числа {b}
 
-if(numberA == sqr) // Если а равно квадрату, то выводим в консоль следующее...
+if (numberA == sqr) // Если а равно квадрату, то выводим в консоль следующее...
 {
     Console.WriteLine($"Число {numberA} является квадратом числа {numberB}");
 }
