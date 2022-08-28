@@ -5,12 +5,12 @@
 Console.Write("Введите номер четверти: ");
 int quarter = Convert.ToInt32(Console.ReadLine());
 
-switch (quarter)
+switch (quarter)  // оператор switch "хватает" переменную и прогоняет её через case
 {
-    case 1:
+    case 1: // Если значение переменной введеной пользователем равно равно 1, то в консоль выводится следующее...
         {
             Console.Write("x > 0 & y > 0");
-            break;
+            break; // оператор break нужен, чтобы остановить процесс проверки при совпадении quarter и case
         }
 
     case 2:
